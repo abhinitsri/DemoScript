@@ -1,0 +1,18 @@
+Approval needed to setup SFTP Site for the user. The below steps need to be done by DevOps. 
+
+SD: 125073
+Setup Steps
+
+Need to remote/login to:    RNlWINAPPDMZ
+Launch "WS_FTP Server manager"
+Username: 	WSFTPAdmin
+Password: 	**********   - DevOps team has the password.
+1.	Manage Host - Select  SFTP.NOELLEVITZ.COM  - make sure you change to this Host!!! (double click to get the "Host Details" to display
+a.	Select Host Details
+b.	On Left navigation, click on "Users"
+2.	Go to Folder D:\ftpsites\erbp\users\ on the local box (RNlWINAPPDMZ) and create folder with same name as user going to create 
+3.	Now in users, click on "Create" and set up the wanted user (note you want to keep User name & folder same name)
+4.	If other users are needed to access the folder (e.g., Noel-Levitz TPSS, etc.), then make the folder "Shared" 
+   and add the users who are needing to access the folder giving appropriate permissions. 
+5.	To test...LOCALLY if not installed, Install Core FTP  (go to website & DL)  
+6.	Launch Core  FTP & try to connect using the credentials that were created above

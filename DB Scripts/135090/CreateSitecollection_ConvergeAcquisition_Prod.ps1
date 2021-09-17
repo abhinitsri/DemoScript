@@ -1,0 +1,1 @@
+New-SPSite -Url "http://ned.ruffalonl.com/team/Converge Acquisition" -OwnerAlias "Ruffalo\svc_sp_farm" -ContentDatabase "WSS_Content_Team_ConvergeAcq" -Description "Converge Acquisition" -Name "ConvergeAcquisition" -Template "STS#0"

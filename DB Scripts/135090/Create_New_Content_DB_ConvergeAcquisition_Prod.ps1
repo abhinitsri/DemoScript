@@ -1,0 +1,1 @@
+New-SPContentDatabase "WSS_Content_Team_ConvergeAcq" -DatabaseServer "RNLWINSPSQLDB1" -WebApplication http://ned.ruffalonl.com

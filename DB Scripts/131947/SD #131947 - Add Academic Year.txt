@@ -1,0 +1,4 @@
+insert into [AcademicYear] (AcademicYearDescription)
+values (2019)
+
+-- delete from [NLForecastPlus].[dbo].[AcademicYear] where AcademicYearID=19
